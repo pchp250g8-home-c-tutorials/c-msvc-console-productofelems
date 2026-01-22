@@ -29,7 +29,7 @@ int main(int argc, char* argv[])
         printf("%d ", iArray[i]);
     }
     free(iArray);
-    printf("\r\nThe Product of %d elements of the array is : %d\r\n", nElems, nProduct);
+    printf("\r\nThe Product of %d elements of the array is : %ld\r\n", nElems, nProduct);
     _fgetchar();
     fgetc(stdin);
     return 0;
